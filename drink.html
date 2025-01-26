@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+	<link rel="stylesheet" href="css/style.css">
+
+    <style>
+       h4
+       {
+        font-size: 30px;
+        font-family: garamond;
+        text-align: center;
+        text-shadow: 3px 3px 30px sandybrown;
+       }
+       h2
+        {
+            font-family: Georgia;
+            text-align: center;
+            padding: 10px;
+            border: 3px solid saddlebrown;
+            color: sienna;
+            font-size: 30px;
+        }
+        p
+        {
+            font-size: 17px;
+            color: saddlebrown;
+        }
+        .column
+        {
+            float: left;
+            width: 20%;
+            padding: 5px;
+            margin-left: 35px;
+            margin-right: 30px;
+            transition: transform 0.3s;
+        }
+        .column:hover img
+        {
+            transform: scale(1.1);
+        }
+        .row::after
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a class="active" href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+         	</div>
+            <div class="dropdown">
+            <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+	</header>
+<hr>
+    <div class="container">
+        <img src="img/coffee.jpeg" style="width: 100%;">
+        <div class="centered">
+            <h4>"A cup of coffee is a hug in a mug."</h4>
+        </div>
+    </div><hr><br>
+
+    <div class="audio">
+       <audio width="320" height="270" style="margin-bottom:-10px; margin-left: 50px; border-radius:20px; border:2px solid burlywood; box-shadow:0 0 25px sandybrown;" controls autoplay>
+  <source src="audio/menu.mp3" type="audio/mp3">
+</audio>
+</div><br>
+
+    <h2>☕ Coffee Creations</h2><br><br>
+    
+    <div class="row">
+        <div class="column">
+            <img src="img/latte.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Moonlit Latte<br>(RM 7)</h3><p>A silky latte inspired by midnight skies</p>
+        </div>
+        <div class="column">
+            <img src="img/mocha.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Velvet Mocha<br>(RM 10)</h3><p>Indulgent chocolate with a velvety espresso twist</p>
+        </div>
+        <div class="column">
+            <img src="img/caramel.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Caramel Whisper<br>(RM 10)</h3><p>Sweet caramel layered with creamy espresso</p>
+        </div>
+        <div class="column">
+            <img src="img/midnight.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="margin-left: -25px; text-align: center;">Midnight Brew<br>(RM 7)</h3><p>Rich and dark, perfect for late-night musings</p>
+        </div>
+    </div><br><br>
+
+     <h2>🍃 Tea Reveries</h2><br><br>
+
+     <div class="row">
+        <div class="column">
+            <img src="img/honey.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Serenity Brew<br>(RM 7)</h3><p>A calming chamomile tea with a touch of honey</p>
+        </div>
+        <div class="column">
+            <img src="img/garden.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Eternal Garden<br>(RM 6)</h3><p>Green tea blended with floral petals</p>
+        </div>
+        <div class="column">
+            <img src="img/jasmine.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Jasmine Cloud<br>(RM 6)</h3><p>Light jasmine tea that feels like a cloud</p>
+        </div>
+        <div class="column">
+            <img src="img/golden.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Golden Hour Green Tea<br>(RM 6)</h3><p>A vibrant green tea perfect for any time</p>
+        </div>
+    </div><br><br>
+
+    <h2>❄️ Chilled Indulgences</h2><br><br>
+
+     <div class="row">
+        <div class="column">
+            <img src="img/breeze.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Crystal Breeze<br>(RM 7)</h3><p>A light and breezy lemonade blend</p>
+        </div>
+        <div class="column">
+            <img src="img/berry.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Frosted Berry Bliss<br>(RM 8)</h3><p>A fruity iced tea with berry medley</p>
+        </div>
+        <div class="column">
+            <img src="img2/serenity.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Iced Serenity<br>(RM 8)</h3><p>A cooling herbal tea over ice</p>
+        </div>
+        <div class="column">
+            <img src="img/frozen.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Frozen Mirage<br>(RM 7)</h3><p>A frosty escape with refreshing flavors</p>
+        </div>
+    </div><br><br>
+
+    <h2>🍓 Smoothie Bliss</h2><br><br>
+
+     <div class="row">
+        <div class="column">
+            <img src="img/pink.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Pink Velvet Shake<br>(RM 9)</h3><p>Sweet strawberries with a creamy twist</p>
+        </div>
+        <div class="column">
+            <img src="img2/stardust.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Berry Stardust<br>(RM 8)</h3><p>Mixed berries blended into a cosmic treat</p>
+        </div>
+        <div class="column">
+            <img src="img/mango.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Mango Sunset<br>(RM 8)</h3><p>A sunny mango smoothie to brighten your day</p>
+        </div>
+        <div class="column">
+            <img src="img/coconut.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Coconut Lagoon<br>(RM 8)</h3><p>Rich coconut smoothie with a tropical vibe</p>
+        </div>
+    </div><br><br>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+
+	<footer>
+         <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

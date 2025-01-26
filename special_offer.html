@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aurora Cafe'</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        li
+        {
+            transition: transform 0.3s;
+            text-align: center;
+            width: 80%;
+        }
+        li:hover
+        {
+            transform: scale(1.1);
+        }
+        ul
+        {
+            margin-left: 15%;
+        }*{box-sizing:border-box}
+
+.slideshow-container {
+    max-height: 700px;
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} 
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+    </style>
+
+   
+</head>
+<body>
+    <header>
+        <div class="index-text">
+            <h1>Aurora Cafe' ☕</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+            <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a class="active" href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+<hr>
+     <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    
+    <img src="img2/offer1.jpg" style="width:100% " height="450px">
+  </div>
+
+  <div class="mySlides fade">
+   
+    <img src="img2/offer2.png" style="width:100%" height="450px">
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="img2/offer3.png" style="width:100%" height="450px">
+  </div>
+   <div class="mySlides fade">
+    
+    <img src="img2/offer4.jpg" style="width:100%" height="450px">
+  </div>
+   <div class="mySlides fade">
+    
+    <img src="img2/offer5.jpg" style="width:100%" height="450px">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div><hr>
+
+<div class="audio">
+       <audio width="320" height="270" style="margin-top:25px; margin-left: 1100px; border-radius:20px; border:2px solid burlywood; box-shadow:0 0 25px sandybrown;" controls autoplay>
+  <source src="audio/audio1.mp3" type="audio/mp3">
+  <source src="audio1.mp3" type="audio/mpeg">
+</audio>
+</div>
+<section id="special-offers" style="background-color: beige; padding: 20px; border-radius: 10px;">
+  <h2 style="text-align: center; color: #2c3e50;"> Special Offers at Aurora Café ☕︎🌟</h2>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="margin: 15px 0; padding: 15px; background-color: blanchedalmond; border: 1px solid grey; border-radius: 8px;">
+      <b>1. Morning Bliss:</b> Enjoy a freshly brewed coffee and a croissant for only <b>RM10</b><br>(available 7 AM - 10 AM)
+    </li>
+    <li style="margin: 15px 0; padding: 15px; background-color: white; border: 1px solid grey; border-radius: 8px;">
+      <b>2. Lunch Combo:</b> Get a Velvet Carbonara, salad, and any coffee for just <b>RM25</b><br>(available 12 PM - 2 PM)
+    </li>
+    <li style="margin: 15px 0; padding: 15px; background-color: blanchedalmond; border: 1px solid grey; border-radius: 8px;">
+      <b>3. Happy Hour:</b> Buy one coffee, get the second at <b>50% off</b><br>(available 3 PM - 5 PM)
+    </li>
+    <li style="margin: 15px 0; padding: 15px; background-color: white; border: 1px solid grey; border-radius: 8px;">
+      <b>4. Students offer:</b> Collect points with every purchase and redeem a <b>free drink</b> after 10 visits!
+    </li>
+    <li style="margin: 15px 0; padding: 15px; background-color: blanchedalmond; border: 1px solid grey; border-radius: 8px;">
+      <b>5. Weekend Treat:</b> Get 10% off your total bill when you dine with your family on weekends
+    </li>
+  </ul>
+  <p style="text-align: center; color: grey;">*Offers valid for a limited time only. Terms and conditions apply.</p>
+</section>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+    
+<footer>
+         <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+    </footer> 
+    
+</body>
+</html>

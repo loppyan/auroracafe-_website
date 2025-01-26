@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+	<link rel="stylesheet" href="css/style.css">
+
+    <style>
+       h4
+       {
+        font-size: 30px;
+        font-family: garamond;
+        text-align: center;
+        text-shadow: 3px 3px 30px sandybrown;
+       }
+       h2
+        {
+            font-family: Georgia;
+            text-align: center;
+            padding: 10px;
+            border: 3px solid saddlebrown;
+            color: sienna;
+            font-size: 30px;
+        }
+        p
+        {
+            font-size: 17px;
+            color: saddlebrown;
+        }
+        .column
+        {
+            float: left;
+            width: 20%;
+            padding: 5px;
+            margin-left: 35px;
+            margin-right: 30px;
+            transition: transform 0.3s;
+        }
+        .column:hover img
+        {
+            transform: scale(1.1);
+        }
+        .row::after
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a class="active" href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+         	</div>
+            <div class="dropdown">
+            <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+	</header>
+<hr>
+    <div class="container">
+        <img src="images/pastry.jpeg" style="width: 100%;">
+        <div class="centered">
+            <h4>"A day without pastries is a day without sparkle."</h4>
+        </div>
+    </div><hr><br>
+
+    <div class="audio">
+       <audio width="320" height="270" style="margin-bottom:-10px; margin-left: 50px; border-radius:20px; border:2px solid burlywood; box-shadow:0 0 25px sandybrown;" controls autoplay>
+  <source src="audio/menu.mp3" type="audio/mp3">
+</audio>
+</div><br>
+
+    <h2>🍩 Pastry Delights</h2><br><br>
+    
+    <div class="row">
+        <div class="column">
+            <img src="images/croissant.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Golden Bloom Croissant<br>(RM 8/units)</h3><p>Flaky croissant with a golden finish</p>
+        </div>
+        <div class="column">
+            <img src="images/crimson.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Crimson Velvet Roll<br>(RM 8/units)</h3><p>A soft roll infused with red velvet cream</p>
+        </div>
+        <div class="column">
+            <img src="images/tart.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Moonlit Tart<br>(RM 10/box)</h3><p>A lemon tart with a glowing glaze</p>
+        </div>
+        <div class="column">
+            <img src="images/puff.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="margin-left: -25px; text-align: center;">Lavender Crème Puff<br>(RM 10/box)</h3><p>Cream-filled puff with lavender essence</p>
+        </div>
+    </div><br><br>
+
+     <h2>🍪 Cookie Charm</h2><br><br>
+
+     <div class="row">
+        <div class="column">
+            <img src="images/almond.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Dusk Almond Biscuit<br>(RM 3/units)</h3><p>Almond cookie with a sprinkle of powdered sugar</p>
+        </div>
+        <div class="column">
+            <img src="images/cc.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Hazelnut Stardust<br>(RM 3/units)</h3><p>Chocolate cookie with hazelnut bits</p>
+        </div>
+        <div class="column">
+            <img src="images/dc.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Velvet Midnight Cookie<br>(RM 4/units)</h3><p>Dark chocolate cookie with molten fudge</p>
+        </div>
+        <div class="column">
+            <img src="images/macarons.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Berry Kiss Macarons<br>(RM 10/box)</h3><p>Assorted macarons with berry flavors</p>
+        </div>
+    </div><br><br>
+
+    <h2>🥐 Petite Bakes</h2><br><br>
+
+     <div class="row">
+        <div class="column">
+            <img src="images/pistachio.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Pistachio Sunset<br>(RM 17/units)</h3><p>Nutty pistachio tart with a hint of vanilla</p>
+        </div>
+        <div class="column">
+            <img src="images/halo.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Cinnamon Halo Bun<br>(RM 6/units)</h3><p>A soft cinnamon bun with sugary glaze</p>
+        </div>
+        <div class="column">
+            <img src="images/muffin.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Lemon Frosted Blossom<br>(RM 5/units)</h3><p>Lemon muffin with frosted sugar tops</p>
+        </div>
+        <div class="column">
+            <img src="images/crater.jpeg" style="width: 250px; height: 250px;">
+            <h3 style="text-align: center; margin-left: -25px;">Caramel Crater Cake <br>(RM 7/units)</h3><p>Molten caramel-filled mini cakes</p>
+        </div>
+    </div><br><br>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+
+	<footer>
+         <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

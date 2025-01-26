@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		.function:hover
+        {
+            transform: scale(1.2);
+        }
+        .function1:hover
+        {
+            transform: scale(1.2);
+        }
+        h2
+        {
+        	font-family: Georgia;
+        	text-align: center;
+        	padding: 10px;
+        	border: 3px solid saddlebrown;
+        	color: sienna;
+        	font-size: 30px;
+        }
+        input[type=text],select, textarea
+        {
+        	width: 100%;
+        	padding: 12px;
+        	border: 1px solid saddlebrown;
+        	border-radius: 4px;
+        	box-sizing: border-box;
+        	margin-top: 6px;
+        	margin-bottom: 16px;
+        	resize: vertical;
+        }
+     	.container
+     	{
+     		border-radius: 5px;
+     		background-color: burlywood;
+     		padding: 20px;
+     		width: 80%;
+     		margin-left: 10%;
+     	}
+     	button
+     	{
+     		padding: 7px;
+     		border-radius: 4px;
+     	}
+     	label
+     	{
+     		font-family: Tahoma;
+     		font-size: 20px;
+     		color: saddlebrown;
+     		font-weight: bold;
+     	}
+     	select, input, textarea
+     	{
+     		font-family: georgia;
+     		font-size: 12px;
+     		color: grey;
+     	}
+     	button
+     	{
+     		font-family: tahoma;
+     		font-size: 10px;
+     		text-align: center;
+     	}
+		
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+         	</div>
+            <div class="dropdown">
+            <a class="active" href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+	</header><br><br>
+
+	<h2>Cash of Delivery (COD)</h2><br><br>
+
+	<div class="container">
+		<form action="action_page.php"> 
+
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name...">
+
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="phone" placeholder="Your phone number...">
+
+			<label for="address">Address</label>
+			<textarea id="address" name="address" placeholder="Your address... " style="height: 80px;"></textarea>
+
+			<label for="email">E-mail</label>
+			<input type="text" id="email" name="email" placeholder="Your E-mail...">
+
+			<label for="order">Order:</label>
+			<select id="order" name="order">
+				<option value="yourorder">Your Order</option>
+				<option value="velvetcarbonara">Velvet Carbonara</option>
+				<option value="koreanfierytwist">Korean Fiery Twist</option>
+				<option value="goldenharvestaglio">Golden Harvest Aglio</option>
+				<option value="aurorabolognese">Aurora Bolognese</option>
+				<option value="starrychickenchop">Starry Chicken Chop</option>
+				<option value="celestialgrilledchicken">Celestial Grilled Chicken</option>
+				<option value="cosmiccrispyburger">Comic Crisp Burger</option>
+				<option value="eclipsesteak">Eclipse Steak</option>
+				<option value="caesarsembrace">Caesars Embrace</option>
+				<option value="mediterraneanbreeze">Mediterranean Breeze</option>
+				<option value="quinoa&avocadosymphony">Quinoa & Avocado Symphony</option>
+				<option value="capresereverie">Caprese Reverie</option>
+				<option value="goldencrispfries">Golden Crisp Fries</option>
+				<option value="havenmushroomsoup">Haven Mushroon Soup</option>
+				<option value="potatobliss">Potato Bliss</option>
+			</select>
+
+			<label for="quantity">Quantity:</label>
+			<select id="quantity" name="quantity">
+				<option value="quantity">Quantity</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="other">Other...</option>
+			</select>
+
+			<label for="description">Description</label>
+			<textarea id="description" name="description" placeholder="Add description... " style="height: 200px;"></textarea>
+
+			<button type="button" onclick="AlertBox()">Submit</button>
+
+			<script>
+			function AlertBox()
+				{
+					alert("Yey! You have completed your order \n Please wait assurely<3")
+				}
+			</script>
+		</form>
+	</div><br><br>
+
+	<footer>
+		 <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+	</footer>
+</body>
+</html>

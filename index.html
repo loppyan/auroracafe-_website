@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		.function:hover
+        {
+            transform: scale(1.2);
+        }
+        .function1:hover
+        {
+            transform: scale(1.2);
+        }
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+	<nav>
+            <a class="active" href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                <a href="vision_mission.html">Vision & Mission</a>
+                <a href="teamauro.html">Team members</a>
+                </div>
+                </div>
+             <div class="dropdown">
+       	    <a href="menu.html">Menu</a>
+            <div class="dropdown-content">
+               <a href="drink.html">Drinks</a>
+               <a href="pastries.html">Pastries</a>
+               <a href="meals.html">Meals</a>
+               <a href="cake.html">Cakes</a>
+            </div>
+			</div>
+			<div class="dropdown">
+       		   <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                <a href="cod.html">Cash Of Delivery</a>
+                <a href="reservation.html">Reservation</a>
+            </div>
+   		    </div>
+   		    <a href="gallery.html">Gallery</a>
+   		    <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+	        </div>
+        </nav>
+	</header><hr>
+
+	<div class="padding">
+        <div class="padding-overlay"></div>
+        <div class="padding-content">
+        <div class="container">
+        <img src="images/index.jpg" width="1520">
+        	<div class="centered">
+        	<h6 style="font-size:65px; border:3px double beige; border-radius:8px">Welcome to Aurora Cafe'</h6><br>
+        	<p>Our cozy spot in Kok Lanas, serving delightful cakes, cuisines, coffee, and pastries. Inspired by the aurora, we offer a warm ambiance and flavors crafted to brighten your day.</p>
+    		</div><hr>
+        </div>
+    	</div>
+    </div>
+
+	<div class="opening">
+        <h3>Opening Hours</h3>
+        <div class="functions">
+        	<article class="function">
+        		<h4>Sunday to Thursday</h4>
+                <p>10:00 am - 7:00 pm</p>
+        	</article>
+            <article class="function">
+            	<h4>Friday and Saturday</h4>
+                <p>10:00 am - 10:00 pm</p>
+            </article>
+            <article class="function">
+            	<h4>Public Holiday</h4>
+                <p>Closed</p>
+            </article>     
+        </div><br> 
+    </div><hr>
+<br>
+    <div class="history">
+        <h3 style="font-size: 40px; text-align: center; margin-left: 20%; margin-bottom: -55px; margin-top: 20px;">The History of Aurora Cafe'</h3>
+        <div class="bio">
+            <img style="border-radius: 20px; margin-left: 100px; border: 5px double burlywood; " height="400" width="300" src="images/home.jpg" alt="Aurora Cafe'">
+            <div class="text" style="margin-left: 500px; margin-top: -20%; font-size: 19px; width: 60%; text-align: justify;">
+                <p>Aurora Cafe' was established as a cozy spot for coffee and food enthusiasts. Known for its warm ambiance and personalized service, it quickly became a favorite for customers seeking a relaxing environment. The cafe' offers freshly brewed coffee, homemade pastries, and a menu that blends traditional and modern flavors. Over the years, it has also become a popular venue for small events and gatherings, building a loyal community of patrons.<br></p><br><br>
+                <a href="learnmore.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <iframe style="margin-left:1200px" src="https://free.timeanddate.com/clock/i9qlwdr3/n122/fn6/fs17/fc300/ftb/bas5/bat4/bac300/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="234" height="67"></iframe>
+
+<br><br><br>
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+
+	<footer>
+		 <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>

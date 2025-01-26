@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+	<style>
+        h4
+        {
+        	font-size: 45px;
+        	font-family: Tahoma;
+        	text-align: center;
+        	text-shadow: 3px 3px 30px sandybrown;
+        }
+        h2
+        {
+        	font-family: Georgia;
+        	text-align: center;
+        	padding: 10px;
+        	border: 3px solid saddlebrown;
+        	color: sienna;
+        	font-size: 30px;
+        }
+        .column
+        {
+        	float: left;
+        	width: 20%;
+        	padding: 5px;
+        	margin-left: 35px;
+        	margin-right: 30px;
+        	transition: transform 0.3s;
+        }
+        .column:hover img
+        {
+        	transform: scale(1.1);
+        }
+        .row::after
+        {
+        	content: "";
+        	clear: both;
+        	display: table;
+        }
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a class="active" href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+         	</div>
+            <div class="dropdown">
+            <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+	</header><hr>
+
+	<div class="container">
+		<img src="images/meals.jpg" style="width: 100%;">
+		<div class="centered">
+			<h4>Let's go through each of our cuisines!</h4>
+		</div>
+	</div><hr><br>
+
+	<div class="audio">
+       <audio width="320" height="270" style="margin-bottom:-10px; margin-left: 50px; border-radius:20px; border:2px solid burlywood; box-shadow:0 0 25px sandybrown;" controls autoplay>
+  <source src="audio/menu.mp3" type="audio/mp3">
+</audio>
+</div><br>
+
+	<h2>Pasta Serenade</h2><br><br>
+
+	<div class="row">
+		<div class="column">
+			<img src="images/nara.jpg" style="width: 250px; height: 250px;">
+			<h3 style="text-align: center; margin-left: -15px;">Velvet Carbonara <br> RM 12</h3>
+		</div>
+		<div class="column">
+			<img src="images/krn.jpg" style="width: 250px; height: 250px;">
+			<h3 style="text-align: center; margin-left: -15px;">Korean Fiery Twist <br> RM 15</h3>
+		</div>
+		<div class="column">
+			<img src="images/aglio.jpg" style="width: 250px; height: 250px;">
+			<h3 style="text-align: center; margin-left: -15px;">Golden Harvest Aglio <br> RM 15</h3>
+		</div>
+		<div class="column">
+			<img src="images/bolo.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: 7px; text-align: center;">Aurora Bolognese <br> RM 15</h3>
+		</div>
+	</div><br><br>
+
+	<h2>Grill & Sizzle</h2><br><br>
+
+	<div class="row">
+		<div class="column">
+			<img src="images/chop.png" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Starry Chicken Chop <br> RM 15</h3>
+		</div>
+		<div class="column">
+			<img src="images/grill.jpeg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Celestial Grilled Chicken <br> RM 15</h3>
+		</div>
+		<div class="column">
+			<img src="images/burger.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Cosmic Crispy Burger <br> RM 12</h3>
+		</div>
+		<div class="column">
+			<img src="images/steak.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Eclipse Steak <br> RM 19</h3>
+		</div>
+	</div><br><br>
+
+	<h2>The Heaven of Greens</h2><br><br>
+
+	<div class="row">
+		<div class="column">
+			<img src="images/caesar.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Caesars Embrace <br> RM 13</h3>
+		</div>
+		<div class="column">
+			<img src="images/greek.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Mediterranean Breeze <br> RM 15</h3>
+		</div>
+		<div class="column">
+			<img src="images/quinoa.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Quinoa & Avocado Symphony <br> RM 13</h3>
+		</div>
+		<div class="column">
+			<img src="images/caprese.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Caprese Reverie <br> RM 12</h3>
+		</div>
+	</div><br><br>
+
+	<h2>Add-On Delights</h2><br><br>
+
+	<div class="row">
+		<div class="column" style="width: 20%; margin-left: 210px;">
+			<img src="images/fries.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Golden Crisp Fries <br> RM 7</h3>
+		</div>
+		<div class="column" style="width: 20%;">
+			<img src="images/soup.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Haven Mushroom Soup <br> RM 10</h3>
+		</div>
+		<div class="column" style="width: 20%;">
+			<img src="images/loaded.jpg" style="width: 250px; height: 250px;">
+			<h3 style="margin-left: -15px; text-align: center;">Potato Bliss <br> RM 7</h3>
+		</div>
+	</div><br><br>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+
+	<footer>
+		 <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>

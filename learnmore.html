@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aurora Cafe'</title>
+	<link rel="stylesheet" href="css/style.css">
+
+    <style>
+        p
+        {
+            font-size: 19px;
+        }
+        h2
+        {
+            border: 5px double burlywood;
+            background-color: none;
+            font-family: georgia;
+            font-size: 29px;
+            width: 100%;
+
+        }
+    </style>
+
+</head>
+<body>
+
+	<header>
+		<div class="index-text">
+			<h1>Aurora Cafe' ☕</h1>
+		</div>
+		<nav>
+			<a class="active" href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="vision_mission.html">Vision & Mission</a>
+                    <a href="teamauro.html">Team members</a>        
+                </div>
+             </div>
+            <div class="dropdown">
+                <a href="menu.html">Menu</a>
+                <div class="dropdown-content">
+                    <a href="drink.html">Drinks</a>
+                    <a href="pastries.html">Pastries</a>
+                    <a href="meals.html">Meals</a>
+                    <a href="cake.html">Cakes</a>
+                </div>
+         	</div>
+            <div class="dropdown">
+            <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                    <a href="cod.html">Cash Of Delivery</a>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+            </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </nav>
+	</header>
+<br>
+
+<div class="video">
+        <div class="video-content">
+            <h2>Watch the video about Aurora Cafe'<br> and immerse yourself in the heart of our cozy haven 𐙚</h2><br>
+            <video controls style="margin-left:20px">
+                <source src="video/kedai.mp4" type="video/mp4">
+            </video>
+            <video controls style="margin-left: 60px;">
+                <source src="video/menu.mp4" type="video/mp4">
+            </video>
+            <p>See how we craft every cup of coffee with care, bake pastries to perfection, and create dishes that delight. Experience the warm and inviting ambiance, where friends gather, and moments turn into cherished memories. Whether you’re here for a quiet retreat or a lively meet-up, our video captures the essence of what makes Aurora Cafe' so unique. Join us on this journey and discover your next favorite spot!</p>
+        </h2>
+        </div>
+    </div>
+
+<br>
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+
+	<footer>
+         <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurora Cafe'</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .slider-container {
+      width: 90%;
+      max-width: 1200px;
+      overflow: auto;
+      position: relative;
+      margin-left: 155px;
+    }
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .card {
+      flex: 25%;
+      max-width: 25%;
+      margin: 10px;
+      background: beige;
+      border-radius: 8px;
+      box-shadow: 4px 6px rgba(0, 0, 0, 0);
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .controls {
+      position: absolute;
+      top: 50%;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .control {
+      background: rgba(0, 0, 0, 0);
+      color: brown;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .control:hover {
+      background: rgba(0, 0, 0, 0);
+      background-color: beige;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .card:hover img {
+      transform: scale(1.1);
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    @media (max-width: 768px) {
+      .card {
+        flex: 0 0 40%;
+        max-width: 40%;
+      }
+    }
+    @media (max-width: 480px) {
+      .card {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="index-text">
+      <h1>Aurora Cafe' ☕</h1>
+    </div>
+  <nav>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a class="active" href="about.html">About Us</a>
+                <div class="dropdown-content">
+                <a href="vision_mission.html">Vision & Mission</a>
+                <a href="teamauro.html">Team members</a>
+                </div>
+                </div>
+             <div class="dropdown">
+            <a href="menu.html">Menu</a>
+            <div class="dropdown-content">
+               <a href="drink.html">Drinks</a>
+               <a href="pastries.html">Pastries</a>
+               <a href="meals.html">Meals</a>
+               <a href="cake.html">Cakes</a>
+            </div>
+      </div>
+      <div class="dropdown">
+             <a href="service.html">Services</a>
+            <div class="dropdown-content">
+                <a href="cod.html">Cash Of Delivery</a>
+                <a href="reservation.html">Reservation</a>
+            </div>
+          </div>
+          <a href="gallery.html">Gallery</a>
+          <a href="special_offer.html">Special Offer</a>
+            <div class="dropdown">
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+  </header>
+
+   <br><br>
+  <h2 style="font-family: Georgia; color: burlywood;font-size: 40px; text-align: center; border: 4px double burlywood; background-color: beige;">TEAM MEMBERS</h2><br>
+
+  <hr><br>
+
+  <div class="slider-container">
+    <div class="slider">
+      <div class="card">
+        <img src="images/izyan.jpg" alt="izyan" width="300" height="350">
+        <h3 style="color: brown;">MANAGER</h3>
+        <p><b>NURUL IZYAN FARZIANA<br>MOHD ZAMRI</b><br><br>Responsible for overseeing daily operations, managing staff, ensuring exceptional customer service, maintaining inventory, and driving sales growth</p>
+      </div>
+      <div class="card">
+        <img src="images/tihah.jpg" width="300" height="350">
+        <h3 style="color: brown;">SUPERVISOR</h3>
+        <p><b>NUR FATIHAH SYUHADAH BROHANUDDIN</b><br><br>Supports the manager by overseeing staff performance, ensuring smooth daily operations, and maintaining customer satisfaction</p>
+      </div>
+      <div class="card">
+        <img src="images/haneem.jpg" width="300" height="350">
+        <h3 style="color: brown;">HEAD OF BARISTA</h3>
+        <p><b>NUR NASYIERAH HANEEM MOHD NASBAH</b><br><br>Leads the barista team, ensures drink quality, trains staff, and manages bar operations efficiently</p>
+      </div>
+      <div class="card">
+        <img src="images/mimi.jpg" width="300" height="350">
+        <h3 style="color: brown;">HEAD OF CHEF</h3>
+        <p><b>NURUL FATIHAH SYAMIN MARZUKHI@MARZUKI</b><br><br>Oversees the kitchen, ensures food quality, manages the team, and maintains smooth kitchen operations</p>
+      </div>
+    </div>
+  </div><br>
+  <a style="margin-left: 1300px;" href="team_members.html" class="btn">More Team</a><br><br>
+  <hr><br>
+  <footer>
+         <p style="background-color: burlywood; color: black; text-align: center; padding: 5px; font-size: 16px; margin: 0; width: 100%;box-sizing: border-box;">&copy; 2025 Aurora Cafe'. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
